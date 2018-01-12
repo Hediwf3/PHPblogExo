@@ -1,4 +1,7 @@
-<header>
+<head>
+<link href="./assets/css/screen.css" type="text/css" rel="stylesheet" />
+</head>
+    <header>
 <ul>
     <li><a href="index.php?page=accueil">Accueil</a></li>
     <li><a href="index.php?page=inscription">Inscription</a></li>

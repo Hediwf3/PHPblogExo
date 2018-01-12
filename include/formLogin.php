@@ -1,4 +1,6 @@
-
+<head>
+    <link href="./assets/css/screen.css" type="text/css" rel="stylesheet" />
+</head>
 <form method="post" action="#">
     <div>
         <label for="mail">Adresse mail : </label>
