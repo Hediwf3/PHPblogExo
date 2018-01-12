@@ -1,5 +1,8 @@
 <head>
-    <script src='https://cloud.tinymce.com/stable/tinymce.min.js'></script>
+    <link href="./assets/css/screen.css" type="text/css" rel="stylesheet" />
+</head>
+<head>
+    <script src="C:\xampp\htdocs\html-css-js\Projet Groupe\NFactoryBlog\tinymce\js\tinymce\tinymce.min.js"></script>
     <script>
         tinymce.init({
             selector: 'textarea'
