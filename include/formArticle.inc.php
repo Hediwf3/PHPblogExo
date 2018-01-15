@@ -8,7 +8,9 @@
     <script src="./tinymce/js/tinymce/tinymce.min.js"></script>
     <script>
         tinymce.init({
-            selector: 'textarea'
+            selector: 'textarea',
+
+
         });
     </script>
 
@@ -26,7 +28,7 @@
     </div>
     <div>
         <label for="contenu">contenu</label>
-        <textarea type="textarea" name="contenu"/> </textarea>
+       <textarea type="textarea" name="contenu"/> </textarea>
     </div>
     <div>
         <select id="interet" multiple>

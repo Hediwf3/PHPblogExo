@@ -5,7 +5,13 @@ if(isset($_POST["formulaireArticle"])) {
 
     $titre = $_POST['titre'];
     $sousTitre = $_POST['sousTitre'];
-    $contenu = $_POST['contenu'];
+    $contenu = addslashes($_POST['contenu']);
+
+
+
+
+
+
 
 
     if($_POST["titre"] == "")
@@ -40,6 +46,9 @@ if(isset($_POST["formulaireArticle"])) {
         }
 
         else {
+
+
+
             $requete = "INSERT INTO t_articles (ID_ARTICLE, ARTTITRE, ARTCHAPO,
                         ARTCONTENU, ARTDATE)
                         VALUES (NULL, '$titre', '$sousTitre', '$contenu', NULL);";
@@ -48,6 +57,7 @@ if(isset($_POST["formulaireArticle"])) {
             mysqli_close($connexion);
 
             echo('Article Poster');
+            echo  $contenu;
         }
 
 
