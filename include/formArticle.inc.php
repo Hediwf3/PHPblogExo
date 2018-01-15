@@ -1,14 +1,19 @@
 <head>
     <link href="./assets/css/screen.css" type="text/css" rel="stylesheet" />
-</head>
-<head>
-    <script src="C:\xampp\htdocs\html-css-js\Projet Groupe\NFactoryBlog\tinymce\js\tinymce\tinymce.min.js"></script>
+
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="./tinymce/js/tinymce/tinymce.min.js"></script>
     <script>
         tinymce.init({
             selector: 'textarea'
         });
     </script>
+
 </head>
+
 <form method="post" action ="#">
 
     <div>
@@ -39,3 +44,4 @@
 
 
 </form>
+

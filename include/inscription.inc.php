@@ -48,7 +48,7 @@ if(isset($_POST["formulaire"])) {
             mysqli_query($connexion, $requete);
             mysqli_close($connexion);
 
-            echo('inscrption réeussie');
+            echo('inscrption réussie');
         }
 
 
@@ -57,6 +57,6 @@ if(isset($_POST["formulaire"])) {
 }
 
 else {
-    echo("Je viens d'ailleurs");
+
     include("./include/formInscription.php");
 }
